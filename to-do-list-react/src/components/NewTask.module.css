@@ -1,0 +1,46 @@
+.filledTasks {
+    width: 46rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-item: flex-start;
+    margin: 0 auto;
+   
+    background: var(--gray-400);
+    color: var(--gray-100);
+    border-radius: 8px;
+    margin-top: 0.75rem;
+  }
+  
+  .filledTasks + .filledTasks {
+    margin-top: 0.75rem;
+  }
+  
+  .filledTasks input[type="checkbox"] {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--blue) !important;
+    clip-path: circle(40%);
+    color: var(--blue) !important;
+    background-color: var(--blue) !important;
+    vertical-align: middle;
+  }
+  
+  .filledTasks input[type="checkbox"]:checked {
+    background-color: var(--purple) !important;
+  }
+  
+  .filledTasks p{
+      margin-left: 1rem;
+  }
+  
+  .filledTasks button{
+      display: flex;
+      align-itemns: center;
+      background: transparent;
+      outline:none;
+      border: 0;
+      cursor: pointer;
+      color: var(--gray-300);
+  }

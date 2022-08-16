@@ -1,0 +1,88 @@
+
+.container {
+    height: 3.375rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: calc(0px - 1.5rem - 6px);
+  }
+  .container input {
+    width: 40rem;
+    padding: 0.5rem;
+    text-align: center;
+    color: var(--white);
+    height: 3.375rem;
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    background: var(--gray-500);
+  }
+  .container button {
+    width: 5.625rem;
+    height: 3.25rem;
+    color: var(--gray-100);
+    outline: none;
+    background: var(--blue-dark);
+    border: none;
+    display: block;
+    border-radius: 8px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: color 0.1s, background-color 0.1s;
+  }
+  
+  .container button svg {
+    align-items: center;
+    margin-left: 0.5rem;
+  }
+
+  
+.emptyTasks {
+    width: 46rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--gray-300);
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .emptyTasks img {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .emptyTasks p {
+    color: var(--gray-300);
+  }
+
+  
+.headerTasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29.5rem;
+    padding-top: 3.375rem;
+    font-size: 0.875rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .headerTasks p {
+    color: var(--blue);
+    gap: 0.5rem;
+  }
+  
+  .headerTasks p span {
+    color: var(--gray-200);
+    padding: 0.125rem 0.5rem;
+    background: var(--gray-400);
+    margin-left: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 999px;
+  }
